@@ -1,0 +1,7 @@
+
+*.obj
+*.idb
+*.pch
+*.pdb
+*.htm
+*.ilk
