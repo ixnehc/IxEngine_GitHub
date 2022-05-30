@@ -1,0 +1,15 @@
+Agent在改变方向时,要减弱某些单位滞后严重的时间,尤其是在方向改变比较大的时候
+设个pack的上限
+尽量在跑动中避免阵型被拉长
+要添加一个追赶速度
+flow的拆分
+
+总结一下,对于deer来说,需要有四个stop动画:
+*. 衔接loop第一帧的一长一短两个动画,
+	*. 长stop动画要比短stop动画的位移长半个walk loop的位移长度
+	*. 长stop动画要比短stop动画的时间长半个walk loop的时间长度
+*. 衔接loop中间那一帧的一长一短两个动画,
+	*. 长stop动画要比短stop动画的位移长半个walk loop的位移长度
+	*. 长stop动画要比短stop动画的时间长半个walk loop的时间长度
+
+https://www.perforce.com/downloads/perforce/r22.1/bin.ntx64/p4vinst64.exe
